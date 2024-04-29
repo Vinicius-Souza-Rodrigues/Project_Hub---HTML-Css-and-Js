@@ -22,6 +22,7 @@ header {
     background-color: var(--fundo_cor);
     border-bottom: 4px solid rgb(36, 34, 34);
     color: var(--palavras_cor);
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -44,35 +45,62 @@ header {
 }
 
 .titulo {
-    font-size: 25px
+    font-size: 30px
 }
 
 nav input{
     width: 300px;
     color: var(--palavras_cor);
-    padding: 7px;
-    padding-left: 8px;
-    border-radius: 11px 0px 0px 11px;
+    padding: 13px 8px;
+    border-radius: 13px 0px 0px 13px;
     outline: none;
     border: 1px solid var(--palavras_cor);
     background-color: var(--fundo_cor);
-    content: 'Alguma coisa';
 }
 
 nav button {
     cursor: pointer;
-    padding: 7px 8px;
+    padding: 13px 8px;
     border: 1px solid var(--palavras_cor);
     background-color: var(--palavras_cor);
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 13px 13px 0px;
 }
 
 /*Section*/
 
 section {
     height: 86vh;
+    padding-top: 100px;
 }
 
+.container_calculator {
+    background-color: #c0c0c0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.resposta {
+    margin: 20px 0px 20px 0px;
+    padding: 6px 12px;
+    background-color: white;
+    text-align: end;
+    border-radius: 5px;
+}
+
+table button {
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    margin: 3px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.title_calculator {
+    text-align: start;
+    font-weight: 10px;
+    font-size: 10px;
+}
 /*footer*/
 
 footer {
