@@ -8,8 +8,9 @@ const version = '1.0'
 
 if(month < 10 ) {
     month = `0${month}`
-} else if(day < 10) {
-    day = `0 + ${day}`
+}
+if(day < 10) {
+    day = `0${day}`
 }
 
 const data_answer = [`${day}/${month}/${year} - v${version}`]

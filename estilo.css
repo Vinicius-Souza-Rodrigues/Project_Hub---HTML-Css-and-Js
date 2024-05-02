@@ -45,13 +45,13 @@ header {
 }
 
 .titulo {
-    font-size: 30px
+    font-size: 27px
 }
 
 nav input{
     width: 300px;
     color: var(--palavras_cor);
-    padding: 13px 8px;
+    padding: 10px 8px;
     border-radius: 13px 0px 0px 13px;
     outline: none;
     border: 1px solid var(--palavras_cor);
@@ -60,7 +60,7 @@ nav input{
 
 nav button {
     cursor: pointer;
-    padding: 13px 8px;
+    padding: 10px 8px;
     border: 1px solid var(--palavras_cor);
     background-color: var(--palavras_cor);
     border-radius: 0px 13px 13px 0px;
@@ -73,8 +73,10 @@ section {
     padding-top: 100px;
 }
 
-.container_calculator {
-    background-color: #c0c0c0;
+/*calculadora*/
+.container_calculator {    
+    border: solid 5px rgb(36, 34, 34);
+    background-color: var(--fundo_cor);
     padding: 10px;
     border-radius: 15px;
 }
@@ -87,20 +89,37 @@ section {
     border-radius: 5px;
 }
 
+.botao_igual {
+    width: 128px;
+    background-color: rgb(167, 163, 163);
+}
+
+.sinal {
+    background-color: rgb(167, 163, 163);
+}
+
+table button:hover {
+    background-color: rgb(97, 95, 95);
+    transform: scale(1.1);
+}
 table button {
     border: none;
     border-radius: 5px;
     width: 60px;
     margin: 3px;
-    padding: 20px;
+    padding: 13px;
     font-size: 20px;
+    
 }
 
 .title_calculator {
+    color: white;
     text-align: start;
-    font-weight: 10px;
+    font-weight: 115px;
     font-size: 10px;
 }
+/*calculadora*/
+
 /*footer*/
 
 footer {
